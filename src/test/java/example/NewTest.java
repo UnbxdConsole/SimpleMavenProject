@@ -10,13 +10,13 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class NewTest {
-static
-{
-	System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
-}
+	static {
+		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
+	}
+
 	@Test
 	public void testEasy() {
-		
+
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://demo.guru99.com/selenium/guru99home/");
 		System.out.println("hisureeeee");
