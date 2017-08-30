@@ -14,6 +14,7 @@ public class NewTest {
 		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
 	}
 
+	//Test Method  
 	@Test
 	public void testEasy() {
 
